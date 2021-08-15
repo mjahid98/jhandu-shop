@@ -1,0 +1,13 @@
+.cat-item{
+    margin: 0 3% 0 0;
+    justify-content: space-between;
+}
+.cat-item:last-child{
+    margin: 0;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px){
+.cat-item {
+    width: 30%;
+}}
